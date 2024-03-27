@@ -1,18 +1,27 @@
 import BookModel from '../../Assets/Images/BookModel.jpeg'
-import signUp from "../../auth/signUp";
-import React from 'react';
-import styles from  './index.module.css'
+// import signUp from "../../auth/signUp";
+// import React from 'react';
+// import styles from  './index.module.css'
 
+// const SignUp = () => {
+//     return(
+//         <div>
+//             <div>
+//                 <img src={BookModel} alt='Sign in here'/>
+//             </div>
+//         </div>
+//     );
+// }
+// export default SignUp;
 
+import React from "react";
 
-
-const SignUp = () => {
-    return(
-        <div>
-            <div>
-                <img src={BookModel} alt='Sign in here'/>
-            </div>
-        </div>
-    );
+export default function SignUp() {
+  return (
+    <div>
+      <div>
+        <img src={BookModel} alt="Sign in here" />
+      </div>
+    </div>
+  );
 }
-export default SignUp;
